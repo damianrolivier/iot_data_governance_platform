@@ -1,6 +1,6 @@
 run_at,rule,rows_affected
-2026-10-18T09:13:42.841664,duplicate_device_timestamp_removed,300
-2026-10-18T09:13:42.873905,temperature_out_of_range,60
-2026-10-18T09:13:42.875934,battery_out_of_range,40
-2026-10-18T09:13:42.879328,temperature_values_imputed,260
-2026-10-18T09:13:42.879653,battery_values_imputed,40
+2026-10-18T21:19:12.530518,duplicate_device_timestamp_removed,300
+2026-10-18T21:19:12.553637,temperature_out_of_range,60
+2026-10-18T21:19:12.560277,battery_out_of_range,40
+2026-10-18T21:19:12.571598,temperature_values_imputed,260
+2026-10-18T21:19:12.572069,battery_values_imputed,40
