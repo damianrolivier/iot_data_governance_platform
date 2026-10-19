@@ -6,8 +6,10 @@ An end-to-end data project that simulates telemetry from 30 IoT devices (tempera
 
 **Built with:** Python (pandas, scikit-learn, matplotlib), SQL (SQLite), Tableau Public, Google Colab
 
+**Note on data:** The telemetry is simulated. I generated it deliberately so I could inject known faults and device failures, then measure whether the pipeline and model catch them.
+
 **Run it yourself?**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damianrolivier/iot-data-governance-platform/blob/main/iot_data_platform.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damianrolivier/iot_data_governance_platform/blob/main/iot_data_platform.ipynb)
 
 
 ## Business problem
@@ -52,7 +54,7 @@ flowchart LR
 ![Battery forecast](outputs/battery_forecast.png)
 ![Quality scores](outputs/quality_scores.png)
 
-**IoT Fleet Health Dashboard:** [IoT Fleet Health: Data Quality, Anomalies & Predictive Maintenance](https://public.tableau.com/views/IotFleetHealthDashboard/IoT_Fleet_Health_Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**IoT Fleet Health Dashboard:** [IoT Fleet Health: Data Quality, Anomalies & Predictive Maintenance](https://public.tableau.com/views/IotFleetHealthDashboard/IoT_Fleet_Health_Dashboard)
 
 
 ## Data governance framework
@@ -78,13 +80,13 @@ flowchart LR
 - Version 2: PostgreSQL, Airflow scheduling, Docker, Great Expectations, drift monitoring
 
 ## How to run
-1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damianrolivier/iot-data-governance-platform/blob/main/iot_data_platform.ipynb) 
+1. Click the badge to open the notebook in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/damianrolivier/iot_data_governance_platform/blob/main/iot_data_platform.ipynb) 
 2. Runtime > Run all (about 1 minute)
 3. Outputs: `iot_platform.db`, CSVs in `exports/`, charts in `outputs/`
 
 ## Repository structure
 ```
-iot-data-governance-platform/
+iot_data_governance_platform/
 ├── README.md
 ├── iot_data_platform.ipynb
 ├── outputs/        (charts)
@@ -97,4 +99,4 @@ iot-data-governance-platform/
 From discovering the power of data analytics to exploring data engineering and data science, I am continually expanding my skills and pushing beyond the boundaries of what I know to turn data into insight, innovation, and real-world solutions.
 
 Connect with me on LinkedIn?
-[Damian Ricardo Olivier](www.linkedin.com/in/damian-olivier-98b92b405)
+[Damian Ricardo Olivier](https://www.linkedin.com/in/damian-olivier-98b92b405)
