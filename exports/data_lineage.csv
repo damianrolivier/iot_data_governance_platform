@@ -1,0 +1,7 @@
+source,target,transformation
+devices (simulated),raw_telemetry,Ingest as-is + loaded_at
+raw_telemetry,clean_telemetry,"Dedupe, range validation, flagged imputation"
+raw_telemetry,gold_device_quality,Quality scoring
+clean_telemetry,gold_device_daily,Daily aggregation (SQL)
+clean_telemetry,gold_anomalies,Isolation Forest
+clean_telemetry,gold_battery_forecast,Linear trend forecast

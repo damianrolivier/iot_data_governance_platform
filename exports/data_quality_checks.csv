@@ -1,0 +1,8 @@
+check,status,run_at
+no_duplicate_device_timestamp,PASS,2026-10-18T09:13:43.748925
+no_null_temperature,PASS,2026-10-18T09:13:43.748925
+no_null_battery,PASS,2026-10-18T09:13:43.748925
+temperature_in_range_-40_100,PASS,2026-10-18T09:13:43.748925
+battery_in_range_0_100,PASS,2026-10-18T09:13:43.748925
+vibration_non_negative,PASS,2026-10-18T09:13:43.748925
+expected_row_count_21600,PASS,2026-10-18T09:13:43.748925

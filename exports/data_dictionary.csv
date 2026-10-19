@@ -1,0 +1,11 @@
+table_name,column_name,data_type,description,source,owner_role
+clean_telemetry,device_id,TEXT,Unique device identifier (DEVxxx),Device registry,Data Engineer
+clean_telemetry,timestamp,DATETIME,Hourly reading time (UTC),Device firmware,Data Engineer
+clean_telemetry,temperature_c,REAL,Temperature in degrees Celsius. Valid range -40 to 100,Device sensor,Data Steward
+clean_telemetry,vibration_g,REAL,Vibration in g-force. Must be >= 0,Device sensor,Data Steward
+clean_telemetry,battery_pct,REAL,Battery level 0 to 100,Device firmware,Data Steward
+clean_telemetry,rssi_dbm,REAL,Wireless signal strength in dBm,Device radio,Data Steward
+clean_telemetry,temp_imputed,INTEGER,1 if temperature was estimated by interpolation,Pipeline,Data Engineer
+clean_telemetry,battery_imputed,INTEGER,1 if battery was estimated by interpolation,Pipeline,Data Engineer
+raw_telemetry,loaded_at,TEXT,Ingestion timestamp for audit trail,Pipeline,Data Engineer
+gold_device_quality,quality_score,REAL,% of raw rows with no quality issue,Pipeline,Data Steward
